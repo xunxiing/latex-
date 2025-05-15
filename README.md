@@ -1,8 +1,4 @@
-# AstrBot LaTeX 渲染插件 (LatexPlotter)
 
-**作者:** YourName (请替换为您的名字或ID)
-**版本:** 1.0.0 (请根据您的版本迭代进行更新)
-**仓库地址:** your_plugin_repo_url_here (请替换为您的插件仓库地址，如果适用)
 
 ## 简介
 
