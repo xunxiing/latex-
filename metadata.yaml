@@ -1,5 +1,28 @@
-name: helloworld # 这是你的插件的唯一识别名。
-desc: 这是 AstrBot 的默认插件，支持关键词回复。 # 插件简短描述
-version: v1.3 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: Soulter # 作者
-repo: https://github.com/Soulter/helloworld # 插件的仓库地址
+# 插件的唯一标识符，应与 main.py 中 @register 的第一个参数一致，且与插件目录名一致
+name: "latex_renderer_plus" 
+# 插件的显示名称，可以包含空格和中文
+display_name: "LaTeX 公式渲染增强版"
+# 插件作者
+author: "YourName" # 请替换为您的名字或ID
+# 插件版本号
+version: "1.0.0"
+# 插件的简短描述
+description: "一个可以手动或自动渲染LaTeX数学公式并以图片形式发送的插件，支持精细裁剪和行间距优化。"
+# 插件的详细介绍，可以使用 Markdown 格式。可选。
+# long_description: |
+#   更详细的插件介绍可以写在这里。
+#   支持 Markdown 换行。
+# 插件图标的URL，可选。建议使用插件仓库中的相对路径或可公开访问的URL。
+# icon_url: "https://example.com/your_plugin_icon.png"
+# 插件仓库的URL，可选。
+repo_url: "https://github.com/xunxiing/latex-.git" # 请替换为您的插件仓库地址
+# 插件标签，可选。用于分类和搜索。
+tags:
+  - "工具"
+  - "LaTeX"
+  - "数学"
+  - "图片渲染"
+# 插件支持的 AstrBot 最低版本，可选。
+# min_astrbot_version: "3.4.0" 
+# 插件的许可证，可选。
+# license: "MIT"
